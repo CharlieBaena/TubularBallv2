@@ -15,8 +15,8 @@ public class Chronometer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        v1.text = "Vuelta actual: 0";
-        bestTime.text = "Mejor vuelta: 0";
+        v1.text = "Vuelta actual: ";
+        bestTime.text = "Mejor vuelta: ";
     }
 
     // Update is called once per frame

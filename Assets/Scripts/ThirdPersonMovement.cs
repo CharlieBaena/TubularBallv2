@@ -30,6 +30,7 @@ public class ThirdPersonMovement : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         defaultSpeed = speed;
         emisorAudio = GetComponent<AudioSource>();
     }

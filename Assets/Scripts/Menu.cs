@@ -34,6 +34,7 @@ public class Menu : MonoBehaviour
     {
         pausePanel.SetActive(true);
         Cursor.lockState = CursorLockMode.Confined;
+        Cursor.visible = true;
         Time.timeScale = 0;
         isPaused = true;
     }
@@ -41,6 +42,7 @@ public class Menu : MonoBehaviour
     {
         pausePanel.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         Time.timeScale = 1;
         isPaused = false;
     }
